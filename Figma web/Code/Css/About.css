@@ -1,0 +1,223 @@
+/*---------deafault/comoon/resetcss*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+}
+
+body {
+    font-family: Sofia;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.subheading {
+    font-size: 13px;
+    font-family: "Nunito", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(194, 168, 126);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    z-index: 0;
+}
+
+:root {
+    --fontFamily: "Overpass", sans-serif;
+    --mainColor: #0000ff;
+    --optionalColor: #ad343e;
+    --whiteColor: #ffffff;
+    --text-color: #f1efd5;
+    --blackColor: #474747;
+    --paragraphColor: #656a80;
+    --color: #0e0f0f;
+    --grayColor: #b9bec7;
+    --fontSize: 16px;
+    --transition: .5s;
+}
+
+/* ==========================Header========================== */
+
+header {
+    /* background-color:; */
+    /* padding: 20px 50px; */
+    /* align-items: center; */
+    border-bottom: 1px solid var(--text-color);
+    top: 0;
+    bottom: 0;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar h2 {
+    color: var(--text-color);
+}
+
+.navbar-nav span h3 {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.navbar-nav span p {
+    display: block;
+    color: var(--text-color);
+    font-size: 12px;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    color: var(--blackColor);
+    font-size: 16px;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.dtr-header-btn {
+    /* background-color: #f1efd5; */
+    color: var(--blackColor);
+    border: 2px solid var(--color);
+    text-decoration: none;
+    border-radius: 50PX;
+    font-family: 'Nunito', Arial, sans-serif;
+    line-height: 22px;
+    padding: 10px 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* provide-health */
+
+
+.provide-healthy {
+    background-color: #f9f9f7;
+    padding: 80px 80px;
+}
+
+.Image img {
+    height: 90%;
+    width: 100%;
+}
+
+.mini-card {
+    color: var(--whiteColor);
+    background-color: #474747;
+    padding: 20px;
+    z-index: 1;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    bottom: 9px;
+    right: -37px;
+}
+
+.mini-card h5 {
+    margin-top: 10px;
+}
+
+.family h1 {
+    font-size: 55px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    margin-left: 80px;
+    max-width: 500px;
+}
+
+.family h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    line-height: 25px;
+    max-width: 92%;
+    margin-left: 80px;
+}
+
+.family p {
+    font-size: 14px;
+    max-width: 92%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.About {
+    border: none;
+    background-color: var(--whiteColor);
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 22px;
+    padding: 13px 18px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+.mini-card ul li:nth-child(1) {
+    margin-top: 30px;
+}
+
+.mini-card ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mini-card ul li i {
+    padding-right: 10px;
+}
+
+
+/* original-taste */
+
+.original-taste{
+    background-image: url(../Images/BG.png);
+    background-size: cover;
+    background-position: absolute;
+    height: 90vh;
+    align-content: center;
+    text-align: center;
+}
+
+.center i{
+    color: var(--optionalColor);
+    background-color: var(--whiteColor);
+    padding: 40px 50px;
+    border-radius: 50%;
+}
+
+.center{
+    /* color: var(--whiteColor); */
+    font-size: 55px;
+    font-family: 'Playfair Display';
+    max-width: 450px !important;
+    text-align: center;
+    margin-top: 20px;
+    margin: 0px auto;
+}
